@@ -42,3 +42,26 @@ This repo contains a minimal, production-shaped e-commerce app modeled after Fli
 
 ## 2) Repo layout (create these folders/files)
 
+
+---
+
+## 3) Application code & Dockerfiles
+
+> Replace **`<your-registry>`** everywhere with your registry (e.g., `docker.io/yourname` or your ECR URI).
+
+### 3.1 `user-service` (JWT auth, Postgres)
+**`user-service/package.json`**
+```json
+{
+  "name": "user-service",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "pg": "^8.11.0"
+  }
+}
+
