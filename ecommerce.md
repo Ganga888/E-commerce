@@ -41,7 +41,47 @@ This repo contains a minimal, production-shaped e-commerce app modeled after Fli
 ---
 
 ## 2) Repo layout (create these folders/files)
-
+ecommerce/
+frontend/
+index.html
+Dockerfile
+user-service/
+package.json
+server.js
+Dockerfile
+product-service/
+package.json
+server.js
+Dockerfile
+cart-service/
+package.json
+server.js
+Dockerfile
+order-service/
+package.json
+server.js
+Dockerfile
+k8s/
+namespace.yaml
+secrets.yaml
+configmaps-dbinit.yaml
+user-postgres-statefulset.yaml
+product-postgres-statefulset.yaml
+order-postgres-statefulset.yaml
+redis-statefulset.yaml
+deployments/
+user-deployment.yaml
+product-deployment.yaml
+cart-deployment.yaml
+order-deployment.yaml
+frontend-deployment.yaml
+services/
+user-service-svc.yaml
+product-service-svc.yaml
+cart-service-svc.yaml
+order-service-svc.yaml
+frontend-service-svc.yaml
+ingress.yaml
 
 ---
 
