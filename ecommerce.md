@@ -41,6 +41,7 @@ This repo contains a minimal, production-shaped e-commerce app modeled after Fli
 ---
 
 ## 2) Repo layout (create these folders/files)
+
 ecommerce/
 │── frontend/                     # UI (HTML/JS frontend)
 │   ├── index.html
